@@ -21,9 +21,9 @@ function App() {
         <WelcomeMessage />
         {/* rendering Age=, Bio=, Name= */}
         <UserProfile
-          name="Peace"
-          age="32"
-          bio="Is a frontend Developer at ALX"
+          name="Alice"
+          age="25"
+          bio="Loves hiking and photography"
         />
         <a href="https://vite.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
