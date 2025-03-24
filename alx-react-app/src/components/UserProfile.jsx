@@ -3,9 +3,9 @@ import React from 'react'
 function UserProfile(props) {
     return(
         <div>
-            <h2>{props.Name}</h2>
-            <p> {props.Age} </p>
-            <p> {props.Bio}</p>
+            <h2>{props.name}</h2>
+            <p> {props.age} </p>
+            <p> {props.bio}</p>
         </div>
     );
 };
