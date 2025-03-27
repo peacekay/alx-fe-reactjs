@@ -12,7 +12,7 @@ function UserProfile(props) {
     >
       {/* ["Age", "Bio", Name] */}
       <h2 style={{ color: "blue" }}>{props.name}</h2>
-      <p style={{ fontWeight: "bold", color: "red" }}> Age: {props.age} </p>
+      <p>Age: <span style={{ fontWeight: 'bold' }}>{props.age}</span></p>
       <p style={{ fontSize: "9px", color: "green" }}> Bio: {props.bio}</p>
     </div>
   );
