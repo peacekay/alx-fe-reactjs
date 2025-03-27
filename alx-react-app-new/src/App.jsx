@@ -8,8 +8,8 @@ import MainContent from "./components/MainContent";
 import Footer from "./components/Footer";
 import UserProfile from "./components/UserProfile";
 import Counter from "./components/Counter";
-import UserContext from "../../alx-react-app-props/UserContext";
-import ProfilePage from "../../alx-react-app-props/ProfilePage";
+import UserContext from "./alx-react-app-props/UserContext";
+import ProfilePage from "./alx-react-app-props/ProfilePage";
 
 
 
