@@ -8,6 +8,9 @@ import MainContent from "./components/MainContent";
 import Footer from "./components/Footer";
 import UserProfile from "./components/UserProfile";
 import Counter from "./components/Counter";
+import UserContext from "../../alx-react-app-props/UserContext";
+import ProfilePage from "../../alx-react-app-props/ProfilePage";
+
 
 function App() {
   const [count, setCount] = useState(0);
@@ -27,6 +30,11 @@ function App() {
           bio="Loves hiking and photography"
         />
         <Counter></Counter>
+        <UserContext.Provider value={userData} >
+          <ProfilePage></ProfilePage>
+
+        </UserContext.Provider>
+
         <a href="https://vite.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
         </a>
