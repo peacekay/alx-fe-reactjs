@@ -12,8 +12,14 @@ import UserContext from "../../alx-react-app-props/UserContext";
 import ProfilePage from "../../alx-react-app-props/ProfilePage";
 
 
+
 function App() {
   const [count, setCount] = useState(0);
+
+  const userData = {
+    name: "John Doe",
+    email: "john.doe@example.com",
+  };
 
   return (
     <>
@@ -31,7 +37,7 @@ function App() {
         />
         <Counter></Counter>
         <UserContext.Provider value={userData} >
-          <ProfilePage></ProfilePage>
+          <ProfilePage/>
 
         </UserContext.Provider>
 
