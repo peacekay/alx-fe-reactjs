@@ -15,6 +15,7 @@ const AddRecipeForm = () => {
     <div>
       <h2>Add a New Recipe</h2>
       <form onSubmit={handlesubmit}>
+        /* "handleSubmit", "setTitle", "textarea */
         <input
           type="text"
           placeholder="Enter recipe name"
