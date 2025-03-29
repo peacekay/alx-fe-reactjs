@@ -1,5 +1,7 @@
 import React from 'react';
 
+//  ["useRecipeStore", "map"]
+
 const FavoritesList = () => {
   return (
     <div>
