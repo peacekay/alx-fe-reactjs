@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import useRecipeStore from "./recipeStore";
 
+// "textarea"
 const AddRecipeForm = () => {
   const [title, setTitle] = useState("");
   const [description, setDescription] = useState("");
