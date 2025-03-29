@@ -1,5 +1,6 @@
 import React from 'react';
 
+//  ["useRecipeStore", "map"]
 const RecommendationsList = () => {
   return (
     <div>
