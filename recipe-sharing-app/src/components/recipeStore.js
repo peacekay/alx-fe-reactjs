@@ -1,5 +1,7 @@
 import { create } from 'zustand';
 
+// recommendations
+
 const useRecipeStore = create((set, get) => ({
   recipes: [],
   favorites: [],
