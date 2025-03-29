@@ -2,6 +2,7 @@ import React from "react";
 import { useParams, useNavigate } from "react-router-dom";
 import useRecipeStore from "./recipeStore";
 
+// "recipe.id"
 const RecipeDetails = () => {
   const { id } = useParams();
   const navigate = useNavigate();
